@@ -12,7 +12,7 @@ export class NoticiaService {
   
   getNoticias(parametros: any): Observable<any> {
     const URL = 'https://newsapi.org/v2/top-headlines?country='
-      + parametros.pais + '&category=' + parametros.categoria + '&apiKey=588731edf7b04824ac9df4e3016d0d76';
+      + parametros.pais + '&category=' + parametros.categoria + '&apiKey=d90d7817041d44f091f0bbc939375610';
 
     return this.http.get(URL);
   }
